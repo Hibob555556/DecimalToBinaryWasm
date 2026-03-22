@@ -72,12 +72,6 @@ Then open <http://localhost:8000>
 
 * * *
 
-## 📁 Project Structure
-
-.├── main.c├── main.h├── main.js├── main.wasm├── index.js├── index.html├── styles/
-
-* * *
-
 ## 💡 Key Learnings
 
 * JS ↔ WASM communication
