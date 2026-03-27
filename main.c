@@ -2,7 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+
+#ifdef __EMSCRIPTEN__
 #include <emscripten.h>
+#else
+#define EMSCRIPTEN_KEEPALIVE
+#endif
 
 /*
  * Function: DecToBin

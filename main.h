@@ -1,2 +1,2 @@
 char* DecToBin(int);
-int BinToDec(int);
+int BinToDec(const char*);

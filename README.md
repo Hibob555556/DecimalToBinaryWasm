@@ -84,3 +84,12 @@ Then open <http://localhost:8000>
 ## 👤 Author
 
 Cayden Lunt
+
+* * *
+
+## Tests
+
+Run the core converter tests natively with GCC:
+
+gcc main.c tests/test_main.c -o tests/test_main.exe -lm
+.\tests\test_main.exe
